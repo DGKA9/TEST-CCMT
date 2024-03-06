@@ -6,5 +6,19 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSumbit_Click(object sender, EventArgs e)
+        {
+
+            if (txtUserName == "ducdeptrai" )
+            {
+                // ahahahahaha
+            }
+        }
     }
 }
