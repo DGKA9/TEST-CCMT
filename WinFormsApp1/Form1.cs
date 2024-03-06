@@ -15,9 +15,9 @@ namespace WinFormsApp1
         private void btnSumbit_Click(object sender, EventArgs e)
         {
 
-            if (txtUserName = "ducdeptrai" && txtPassword = "khoalom")
+            if (txtUserName == "ducdeptrai" )
             {
-                
+                // ahahahahaha
             }
         }
     }
