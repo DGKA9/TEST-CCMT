@@ -43,6 +43,7 @@
             btnSumbit.TabIndex = 0;
             btnSumbit.Text = "Login";
             btnSumbit.UseVisualStyleBackColor = true;
+            btnSumbit.Click += btnSumbit_Click;
             // 
             // txtUserName
             // 
