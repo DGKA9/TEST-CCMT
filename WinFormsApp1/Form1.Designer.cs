@@ -28,12 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            btnSumbit = new Button();
+            txtUserName = new TextBox();
+            lblUserName = new Label();
+            label1 = new Label();
+            txtPassword = new TextBox();
+            SuspendLayout();
+            // 
+            // btnSumbit
+            // 
+            btnSumbit.Location = new Point(405, 254);
+            btnSumbit.Name = "btnSumbit";
+            btnSumbit.Size = new Size(75, 39);
+            btnSumbit.TabIndex = 0;
+            btnSumbit.Text = "Login";
+            btnSumbit.UseVisualStyleBackColor = true;
+            // 
+            // txtUserName
+            // 
+            txtUserName.Location = new Point(259, 115);
+            txtUserName.Name = "txtUserName";
+            txtUserName.Size = new Size(253, 31);
+            txtUserName.TabIndex = 1;
+            // 
+            // lblUserName
+            // 
+            lblUserName.AutoSize = true;
+            lblUserName.Location = new Point(146, 115);
+            lblUserName.Name = "lblUserName";
+            lblUserName.Size = new Size(99, 25);
+            lblUserName.TabIndex = 2;
+            lblUserName.Text = "User Name";
+            lblUserName.Click += label1_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(146, 186);
+            label1.Name = "label1";
+            label1.Size = new Size(87, 25);
+            label1.TabIndex = 4;
+            label1.Text = "Password";
+            // 
+            // txtPassword
+            // 
+            txtPassword.Location = new Point(259, 186);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(253, 31);
+            txtPassword.TabIndex = 3;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(label1);
+            Controls.Add(txtPassword);
+            Controls.Add(lblUserName);
+            Controls.Add(txtUserName);
+            Controls.Add(btnSumbit);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Button btnSumbit;
+        private TextBox txtUserName;
+        private Label lblUserName;
+        private Label label1;
+        private TextBox txtPassword;
     }
 }
